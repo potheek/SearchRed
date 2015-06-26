@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Search Red</string>
+
+    <string name="donor_registration">Donor Registration</string>
+
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_number_hint">Phone</string>
+    <string name="age_hint">Age</string>
+    <string name="radio_label_positive_availability">Ready to Donate</string>
+    <string name="radio_label_negative_availability">Cannot Donate Right Now</string>
+    <string name="availability">On</string>
+
+    <string-array name="blood_group_array">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+</resources>

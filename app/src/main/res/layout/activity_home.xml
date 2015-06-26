@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    style="@style/ParentThemeLayoutInputs">
+
+    <TextView
+        android:text="@string/donor_registration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        style="@style/donor_registration"
+        />
+
+    <Spinner
+        android:id="@+id/bloodGroupSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name_hint"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="20px"
+        />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name_hint"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="20px"
+        />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="20px"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number_hint"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="20px"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age_hint"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="20px"
+        />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_pAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_label_positive_availability"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/radio_nAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_label_negative_availability"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+
+
+
+</LinearLayout>
